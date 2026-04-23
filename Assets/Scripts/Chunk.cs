@@ -151,6 +151,7 @@ public class Chunk : MonoBehaviour
             );
 
             CarveIronOreVein(startX, startY, startZ, veinSize, rng);
+            Debug.Log($"Iron vein spawned at world {worldX} {startY} {worldZ}");
 
             if (i % 3 == 2)
                 yield return null;

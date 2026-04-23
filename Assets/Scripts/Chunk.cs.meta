@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 8042a3976970917429dec502025d2e14
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stoneDropPrefab: {fileID: 4203753035879900597, guid: e58a1be24bbd3ef499011d72f6a8db4f, type: 3}
+  - groundDropPrefab: {instanceID: 0}
+  - ironOreDropPrefab: {fileID: 1049752675367253841, guid: 27731e81a00742a4793cee74daeff681, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

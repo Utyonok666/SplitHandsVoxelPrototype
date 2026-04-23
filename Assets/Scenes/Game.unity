@@ -7052,13 +7052,13 @@ MonoBehaviour:
   chunkPrefab: {fileID: 1621890251630912186, guid: 2ac9c54fbb2236a439351ec78472e088, type: 3}
   treePrefab: {fileID: 8236498453547685893, guid: 141211d64b3c98a42a22b577a7fe4cf6, type: 3}
   ironOrePrefab: {fileID: 1049752675367253841, guid: 27731e81a00742a4793cee74daeff681, type: 3}
-  ironOreBlockPrefab: {fileID: 7778323751052445194, guid: 25258ff9712acf242bb1228de06d29d5, type: 3}
+  ironOreBlockPrefab: {fileID: 856944897172216611, guid: f6c7c191bba89cd49a4486ed8dbc9fbd, type: 3}
   rockStructurePrefab: {fileID: 6269159016963339022, guid: a8472855682712a478ce1900dff0adaf, type: 3}
   chestPrefab: {fileID: 8174062284059392244, guid: 24e8bc64b9ea55245878e2b0f0df0b36, type: 3}
   chestSpawnChance: 0.03
   ironOreSpawnChanceForest: 0.003
   ironOreSpawnChancePlains: 0.003
-  ironOreMinHeight: 10
+  ironOreMinHeight: 4
   ironOreMaxHeight: 48
   axePrefab: {fileID: 5759252978742279199, guid: 57d56605ea5aaa5418cbcba9326238ce, type: 3}
   hammerPrefab: {fileID: 758525083551951306, guid: 25871486d7350944babe4e0e7064fb78, type: 3}

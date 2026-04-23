@@ -428,6 +428,7 @@ public class HandGamePlayer : MonoBehaviour
         if (blockType == 1) return "Grass";
         if (blockType == 2) return "Dirt";
         if (blockType == 3) return "Stone";
+        if (blockType == 4) return "Iron Ore";
         return "Unknown";
     }
 
@@ -767,7 +768,7 @@ public class HandGamePlayer : MonoBehaviour
                 float multiplier = hitChunk.GetBreakMultiplierForBlock(hitPos, toolType);
                 float finalDamage = blockDamagePerSecond * damage * Mathf.Max(0.01f, multiplier);
 
-                float breakTime = blockType == 3 ? hitChunk.stoneBreakTime : hitChunk.groundBreakTime;
+                float breakTime = (blockType == 3 || blockType == 4) ? hitChunk.stoneBreakTime : hitChunk.groundBreakTime;
                 float progressPerSecond = finalDamage / Mathf.Max(0.01f, breakTime);
 
                 currentBreakPercent += progressPerSecond * Time.deltaTime * 100f;
