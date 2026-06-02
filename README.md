@@ -113,6 +113,12 @@ Focus areas:
 
 ---
 
+## Video Preview
+
+https://youtu.be/1OdJqMENVhc?si=5hOUFkYcJYmFZ2Hu
+
+---
+
 # SplitHands 3D — Процедурный voxel sandbox прототип
 
 ## О проекте
@@ -172,6 +178,12 @@ SplitHands 3D — это прототип sandbox-игры на Unity с про�
 - AI противников
 - сохранение и загрузка мира
 - чат и команды игрока
+
+---
+
+## Video Preview
+
+https://youtu.be/1OdJqMENVhc?si=5hOUFkYcJYmFZ2Hu
 
 ---
 
